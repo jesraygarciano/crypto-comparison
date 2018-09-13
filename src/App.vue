@@ -25,11 +25,34 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 
+// The API we're using for grabbing metadata about each cryptocurrency
+// (including logo images). The service can be found at:
+// https://www.cryptocompare.com/api/
+let CRYPTOCOMPARE_API_URI = "https://www.cryptocompare.com";
+
+// The API we're using for grabbing cryptocurrency prices.  The service can be
+// found at: https://coinmarketcap.com/api/
+let COINMARKETCAP_API_URI = "https://api.coinmarketcap.com";
+
+// The amount of milliseconds (ms) after which we should update our currency
+// charts.
+let UPDATE_INTERVAL = 60 * 1000;
+
 export default {
   name: "app",
   components: {
     HelloWorld
+  },
+
+  data: {
+    coins: [],
+    coinData: {},
+  },
+
+  methods: {
+    
   }
+
 };
 </script>
 
