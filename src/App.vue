@@ -1,7 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <td>Rank</td>
+          <td>Name</td>
+          <td>Symbol</td>
+          <td>Price (USD)</td>
+          <td>1H</td>
+          <td>1D</td>
+          <td>1W</td>
+          <td>Markey Cap (USD)</td>
+        </tr>
+        <tbody>
+        </tbody>
+      </thead>
+    </table>
+
   </div>
 </template>
 

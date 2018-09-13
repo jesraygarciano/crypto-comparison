@@ -1,7 +1,24 @@
 <template>
   <div class="hello">
-    <h1>Hello</h1>
-  </div>
+
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <td>Rank</td>
+          <td>Name</td>
+          <td>Symbol</td>
+          <td>Price (USD)</td>
+          <td>1H</td>
+          <td>1D</td>
+          <td>1W</td>
+          <td>Markey Cap (USD)</td>
+        </tr>
+        <tbody>
+        </tbody>
+      </thead>
+    </table>
+
+    </div>
 </template>
 
 <script>
